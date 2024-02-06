@@ -12,7 +12,7 @@ body {
 #main {
   width: 100%;
   height: 100%;
-  /* background-color: rgb(134, 47, 47); */
+  background-color: rgba(247, 246, 244, 0.886);
   display: flex;
   align-items: center;
   /* justify-content: space-between; */
@@ -93,64 +93,64 @@ body {
   width: 70%;
 }
 #right {
-    position: relative;
+  position: relative;
   width: 35%;
   height: 89.5vh;
   /* background-color: rgb(193, 121, 191); */
-  padding: 100px 80px 0px 70px ;
+  padding: 100px 80px 0px 70px;
   overflow: hidden;
   margin-left: -50px;
 }
-#right-nav{
-    width: 89.8%;
-    height: 50px;
-    /* background-color: red; */
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
+#right-nav {
+  width: 89.8%;
+  height: 50px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
 }
-#right-nav h3{
-    font-size: 22px;
-    font-weight: 600;
+#right-nav h3 {
+  font-size: 22px;
+  font-weight: 600;
 }
-#right-nav h4{
-    font-size: 14px;
-    font-weight: 600;
+#right-nav h4 {
+  font-size: 14px;
+  font-weight: 600;
 }
-#right-nav i{
-    color:gold
+#right-nav i {
+  color: gold;
 }
-#right image{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+#right image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 #gola {
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    background-color: rgb(54, 53, 56);
-    top: 38%;
-    right: 1%;
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* padding: px; */
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-color: rgb(54, 53, 56);
+  top: 38%;
+  right: 1%;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: px; */
 }
-#gola h3{
-    font-size: 20px;
-    font-weight: 500;
+#gola h3 {
+  font-size: 20px;
+  font-weight: 500;
 }
-#right p{
-    /* background-color: red; */
-    position: absolute;
-    /* top: 30%; */
-    bottom:15%;
-    right: 58%;
-    rotate: -90deg;
-    transform-origin: 0 0;
-    font-size: 30px;
-    font-weight: 600;
+#right p {
+  /* background-color: red; */
+  position: absolute;
+  /* top: 30%; */
+  bottom: 15%;
+  right: 58%;
+  rotate: -90deg;
+  transform-origin: 0 0;
+  font-size: 30px;
+  font-weight: 600;
 }
