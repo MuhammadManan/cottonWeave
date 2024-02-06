@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(134, 47, 47); */
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#left {
+  padding-left: 50px;
+  width: 48%;
+  height: 80vh;
+  /* background-color:lightpink;  */
+  /* margin-right: 30px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#left h4 {
+  font-size: 100px;
+  font-weight: 500;
+}
+#left-bottom {
+  /* margin-top: 200px; */
+  padding-top: 50px;
+  width: 70%;
+  height: 40%;
+  /* background-color: grey; */
+}
+#left-bottom-upper {
+  /* background-color: rgb(116, 56, 173); */
+  content: fit;
+  width: 22%;
+  height: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid black;
+  border-radius: 60px;
+  padding: 5px;
+}
+#left-bottom-upper h3 {
+  width: fit-content;
+  /* background-color: blanchedalmond; */
+  padding-right: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+#color1 {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(203, 147, 255, 0.87);
+  border-radius: 50px;
+}
+#color2 {
+  background-color: rgb(169, 236, 154);
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+#left-bottom-down {
+  /* width: 100%; */
+  /* height: 100%; */
+  /* background-color: lightblue; */
+  margin-top: 50px;
+}
+#left-bottom-down h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+#left-bottom-down p {
+  font-size: 15px;
+  line-height: 17px;
+  margin-top: 5px;
+  /* background-color: red; */
+  padding-right: 20px;
+  width: 70%;
+}
+#right {
+    position: relative;
+  width: 35%;
+  height: 89.5vh;
+  /* background-color: rgb(193, 121, 191); */
+  padding: 100px 80px 0px 70px ;
+  overflow: hidden;
+  margin-left: -50px;
+}
+#right-nav{
+    width: 89.8%;
+    height: 50px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+#right-nav h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+#right-nav h4{
+    font-size: 14px;
+    font-weight: 600;
+}
+#right-nav i{
+    color:gold
+}
+#right image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#gola {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(54, 53, 56);
+    top: 38%;
+    right: 1%;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: px; */
+}
+#gola h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+#right p{
+    /* background-color: red; */
+    position: absolute;
+    /* top: 30%; */
+    bottom:15%;
+    right: 58%;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 30px;
+    font-weight: 600;
+}
