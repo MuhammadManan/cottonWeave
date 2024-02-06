@@ -29,6 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-left: 200px;
 }
 #left h4 {
   font-size: 100px;
